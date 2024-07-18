@@ -29,6 +29,7 @@ function Todoform({ addTodo }) {
         className="todoForm__input"
         type="text"
         value={title}
+        placeholder="add todo"
         onChange={(e) => setTitle(e.target.value)}
       ></input>
       <button type="submit" className="todoForm__btn">
