@@ -7,9 +7,9 @@ import { useState } from "react";
 
 function App() {
   const [todos, setTodos] = useState([
-    { id: 1, title: "learn guitar", completed: false },
-    { id: 2, title: "learn react", completed: false },
-    { id: 3, title: "learn sql", completed: true },
+    // { id: 1, title: "learn guitar", completed: false },
+    // { id: 2, title: "learn react", completed: false },
+    // { id: 3, title: "learn sql", completed: true },
   ]);
 
   function addTodo(newTodo) {
